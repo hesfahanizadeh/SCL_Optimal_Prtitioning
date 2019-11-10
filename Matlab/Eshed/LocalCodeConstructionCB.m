@@ -3,7 +3,7 @@ kappa = 13;gamma_l=3; gamma = 6; gamma_c = gamma - gamma_l;
 %from Tanner's paper 
 p = 157; 
 % erased circulants
-nu = 11; 
+nu = 12; 
 %% create codes
 % Unbalnced partition
 B = ones(gamma,kappa); %CC are irelevant
