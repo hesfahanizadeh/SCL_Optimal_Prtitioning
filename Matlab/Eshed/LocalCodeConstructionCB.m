@@ -13,5 +13,5 @@ localRow = gamma_c*p+1; HL_1 = H(localRow:end,:);
 
 % Balanced partition
 B = ones(gamma,kappa);endj= 0;
-B(gamma_l+1:end,:) = CreateBalancedLocal(gamma_l,kappa,nu);
+B(gamma_c+1:end,:) = CreateBalancedLocal(gamma_l,kappa,nu);
 H = CBlift(B,p); HL_2 = H(localRow:end,:);
