@@ -7,7 +7,7 @@ nu = 12;
 %% create codes
 % Unbalnced partition
 B = ones(gamma,kappa); %CC are irelevant
-B(gamma_l+1,end-nu+1:end) = 0;
+B(gamma_c+1,end-nu+1:end) = 0;
 H = CBlift(B,p);
 localRow = gamma_c*p+1; HL_1 = H(localRow:end,:);
 
